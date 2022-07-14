@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(241, 216, 177);
+    color: rgb(57, 37, 37);
+}
+
+.authors_name{
+    /**width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;**/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(241, 216, 177);
+}
+
+button{
+    background: rgb(241, 216, 177);
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
